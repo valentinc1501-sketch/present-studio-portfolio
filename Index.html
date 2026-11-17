@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio – Present Studio</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #f0f0f0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 20px;
+      background: #ffffff;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 1.1rem;
+      margin: 0;
+      font-weight: 600;
+    }
+    header a {
+      text-decoration: none;
+      color: #ffffff;
+      background: #222222;
+      padding: 8px 14px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    header a:hover {
+      background: #444444;
+    }
+    iframe {
+      flex: 1;
+      width: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio – Present Studio</h1>
+    <a href="portfolio.pdf" download>Télécharger le PDF</a>
+  </header>
+  <iframe src="portfolio.pdf#view=FitH" title="Portfolio PDF"></iframe>
+</body>
+</html>
